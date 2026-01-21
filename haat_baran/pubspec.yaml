@@ -1,0 +1,42 @@
+name: haat_baran
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.2.1
+  supabase_flutter: ^2.12.0
+  intl: ^0.18.1
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+  url_launcher: ^6.3.2
+  webview_flutter: ^4.13.1
+  http: ^1.6.0
+  webview_flutter_web: ^0.2.3+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/Haat_Baran_logo.png"
+  web:
+    generate: true
+    image_path: "assets/images/Haat_Baran_logo.png"
+    background_color: "#ffffff"
+    theme_color: "#ffffff"
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/Haat_Baran_logo.png
